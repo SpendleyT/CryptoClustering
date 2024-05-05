@@ -2,8 +2,8 @@
 
 <h3>Project Summary</h3>
 <i>"One of the hottest debates in finance and economics is whether the (crypto) market is efficient."</i><br>
-- Market efficiency of cryptocurrency: evidence from the Bitcoin market (Yi, Yang, Jeong, Sohn and Ahn)<super>1</super>
-<br>
+- Market efficiency of cryptocurrency: evidence from the Bitcoin market (Yi, Yang, Jeong, Sohn and Ahn)<sup>1</sup>
+<br><br>
 <p>The purpose of this project is to provide an analysis as to whether the price changes of a currency over a 24-hr or 7-day period affect the overall price.</p>
 
 <h3>Project Activities</h3>
@@ -19,7 +19,7 @@
 <ul>
 <li>Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.</li>
 <li>Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.</li>
-<ul>
+</ul>
 
 <h5>Find the Best Value for k Using the Original Scaled DataFrame</h5>
 <p>Use the elbow method to find the best value for k using the following steps:</p>
@@ -41,7 +41,7 @@
 <li>Create a copy of the original data and add a new column with the predicted clusters.</li>
 <li>Create a scatter plot using hvPlot:</li>
 <img src='./images/cluster_all.png' height='200px' width='300px'>
-<ul>
+</ul>
 
 <h5>Optimize Clusters with Principal Component Analysis</h5>
 <ul>
@@ -71,3 +71,6 @@
 <li>Create a scatter plot using hvPlot:</li>
 <img src='./images/cluster_pca.png' height='200px' width='300px'>
 </ul>
+
+<h3>References</h3>
+<b>1</b> - Market efficiency of cryptocurrency: evidence from the Bitcoin market. Published March 23, 2023 by Eojin Yi, Biao Yang, Minhyuk Jeong, Sungbin Sohn & Kwangwon Ahn. Link <a href='https://www.nature.com/articles/s41598-023-31618-4'>here</a>.
